@@ -14,7 +14,7 @@ console.log(`Средний балл ${GPA}`);
 
 const min = Math.min(...grades);
 const max = Math.max(...grades);
-console.log(`Наимбольшая оценка ${max}`);
+console.log(`Наибольшая оценка ${max}`);
 console.log(`Наименьшая оценка ${min}`);
 let quantity = 0;
 grades.filter((item) => {
